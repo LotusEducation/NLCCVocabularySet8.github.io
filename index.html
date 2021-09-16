@@ -10,8 +10,8 @@
     display:inline-block;
     z-index:999;
 }
-  #overlay {
-  position: relative; /* Sit on top of the page content */
+ .overlay {
+  position: relative; 
   width: 300px;
   height: auto;
   top: 0;
@@ -19,7 +19,7 @@
   right: 0;
   bottom: 0;
 }
-.thumbnailoverlay:hover {
+.thumbnailoverlay:hover + overlay {
     position:relative;
     top:0px;
     left:10px;
@@ -164,7 +164,7 @@
 <p class="c13"><span class="c12">Test Yourself!</span></p>
 <br>
 <br>
-    <img src="https://drive.google.com/uc?export=view&id=1TUFXNNWq1l73_Y_NjaZNlz97Lj4EzX7c" class="thumbnailoverlay" class="overlay" class="rounded" height="75" width="75" />
+    <img src="https://drive.google.com/uc?export=view&id=1TUFXNNWq1l73_Y_NjaZNlz97Lj4EzX7c" class="thumbnailoverlay" class="rounded" height="75" width="75" />
     &nbsp;&nbsp; 
     <img src="https://drive.google.com/uc?export=view&id=1pZOjBWLc47tmltYAOMNerfjGEQ1Wfmak" class="thumbnail" class="rounded" height="75" width="75" /> 
     &nbsp;&nbsp;
