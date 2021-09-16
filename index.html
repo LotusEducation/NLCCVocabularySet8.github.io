@@ -166,10 +166,10 @@
 <p class="c13"><span class="c12">Test Yourself!</span></p>
 <br>
 <br>
-    <div class="thumbnailoverlay">
+    <div class="thumbnailoverlay" onclick="off()">
     <img src="https://drive.google.com/uc?export=view&id=1TUFXNNWq1l73_Y_NjaZNlz97Lj4EzX7c" class="rounded" height="75" width="75" />
     </div> 
-    <div class="overlay"><img src="https://drive.google.com/uc?export=view&id=1TUFXNNWq1l73_Y_NjaZNlz97Lj4EzX7c" class="rounded" height="75" width="75" />
+    <div class="overlay"><img onhover="on()" src="https://drive.google.com/uc?export=view&id=1TUFXNNWq1l73_Y_NjaZNlz97Lj4EzX7c" class="rounded" height="75" width="75" />
     </div>
     &nbsp;&nbsp; 
     <img src="https://drive.google.com/uc?export=view&id=1pZOjBWLc47tmltYAOMNerfjGEQ1Wfmak" class="thumbnail" class="rounded" height="75" width="75" /> 
@@ -203,6 +203,15 @@
     <img src="https://drive.google.com/uc?export=view&id=13V2yiMwe9-Qneluh6iHFxX0TeSoZn4pQ" class="thumbnail" class="rounded" height="75" width="75" /> 
     &nbsp;&nbsp;
     <img src="https://drive.google.com/uc?export=view&id=1uEKiTWy9jbXIFcieAeV0MILUoAexhRF5" class="thumbnail" class="rounded" height="75" width="75" /> 
+<script>
+function on() {
+  document.getElementById("overlay").style.display = "block";
+}
+
+function off() {
+  document.getElementById("overlay").style.display = "none";
+}
+</script>
 <br>
 <br>
 <p class="c13"><span class="c12">Verb and Noun Pairs Practice</span></p> 
