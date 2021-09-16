@@ -12,6 +12,7 @@
 }
  .overlay {
   position: relative;  
+  display:none; 
   width: 300px;
   height: auto;
   top: 0;
@@ -19,7 +20,7 @@
   right: 0;
   bottom: 0;
 }
-.thumbnailoverlay:hover + div {
+.thumbnailoverlay:hover + .overlay {
     position:relative;
     top:0px;
     left:10px;
@@ -166,8 +167,7 @@
 <br>
     <span class="thumbnailoverlay">
     <img src="https://drive.google.com/uc?export=view&id=1TUFXNNWq1l73_Y_NjaZNlz97Lj4EzX7c" class="rounded" height="75" width="75" />
-    </span>
-    <div class="overlay" onclick="off()"><img src="https://drive.google.com/uc?export=view&id=1TUFXNNWq1l73_Y_NjaZNlz97Lj4EzX7c"></div> 
+    </span> 
     &nbsp;&nbsp; 
     <img src="https://drive.google.com/uc?export=view&id=1pZOjBWLc47tmltYAOMNerfjGEQ1Wfmak" class="thumbnail" class="rounded" height="75" width="75" /> 
     &nbsp;&nbsp;
